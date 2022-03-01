@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.co.adinte",
+    "module": "generalLib",
+    "version": "1.5.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "generalLib-1.5.3.aar",
+          "url": "generalLib-1.5.3.aar",
+          "size": 175180,
+          "sha512": "823ba8f42ea740cd01e315585b111ddb38e81ba5871bf8dfec9aa7c9cc74a5d451449797db8685d7bec2550f93d561c1bfbd298e8cd2d523a67d6a6c78e7b00b",
+          "sha256": "e511847945b559602f946de5dd7d71bd0f7519acefe784ad1ea22a52d9f8bcf2",
+          "sha1": "601d22715890bebb2837723711350c3ecdcd4251",
+          "md5": "378a08f15105211850f36a64823a0b1b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-cognito",
+          "version": {
+            "requires": "2.20.1"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-s3",
+          "version": {
+            "requires": "2.37.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "generalLib-1.5.3.aar",
+          "url": "generalLib-1.5.3.aar",
+          "size": 175180,
+          "sha512": "823ba8f42ea740cd01e315585b111ddb38e81ba5871bf8dfec9aa7c9cc74a5d451449797db8685d7bec2550f93d561c1bfbd298e8cd2d523a67d6a6c78e7b00b",
+          "sha256": "e511847945b559602f946de5dd7d71bd0f7519acefe784ad1ea22a52d9f8bcf2",
+          "sha1": "601d22715890bebb2837723711350c3ecdcd4251",
+          "md5": "378a08f15105211850f36a64823a0b1b"
+        }
+      ]
+    }
+  ]
+}
